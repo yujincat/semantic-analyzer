@@ -1,0 +1,23 @@
+{
+  "name": "semantic-analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "retext-english": "^3.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yujincat/semantic-analyzer.git"
+  },
+  "author": "Yujin Shin (yujincat@github.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yujincat/semantic-analyzer/issues"
+  },
+  "homepage": "https://github.com/yujincat/semantic-analyzer#readme"
+}
