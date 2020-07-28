@@ -1,0 +1,15 @@
+var vfile = require('to-vfile')
+var report = require('vfile-reporter')
+var unified = require('unified')
+var english = require('retext-english')
+var stringify = require('retext-stringify')
+var passive = require('retext-passive')
+
+unified()
+  .use(english)
+  .use(passive)
+  .use(stringify)
+  .process(vfile.readSync('passive.txt'), function (err, file) {
+    const result = report(err || file)
+    console.error(result)
+  })
